@@ -54,7 +54,7 @@ cd /tmp
 timedatectl set-timezone Europe/Paris
 echo ""
 echo "****************************************************************************************"
-echo "Aus kompatibilitäts gründen zu pi einen link von nodejs auf node kreiern"
+echo "Aus kompatibilitÃ¤ts grÃ¼nden zu pi einen link von nodejs auf node kreiern"
 cd /tmp && ln -s /usr/bin/node /usr/bin/nodejs
 echo ""
 echo "****************************************************************************************"
@@ -79,7 +79,7 @@ echo "MC installieren"
 cd /tmp && wget http://ftp.midnight-commander.org/mc-4.6.1.tar.gz && tar -zxvf mc-4.6.1.tar.gz && cd mc-4.6.1 && ./configure && make && make install
 echo ""
 echo "****************************************************************************************"
-eco "cctl installieren"
+echo "cctl installieren"
 cd /home/edison
 mkdir erf
 cd erf
@@ -92,4 +92,4 @@ cd cctl-prog
 make
 echo ""
 echo "****************************************************************************************"
-echo "wenn alles gut gelaufen ist könnte mann nun mit eddie arbeiten"
+echo "wenn alles gut gelaufen ist kÃ¶nnte mann nun mit eddie arbeiten"
